@@ -20,8 +20,9 @@ Bot Telegram sederhana yang membantu mengirimkan permintaan aktivasi nomor (band
 
 1.  **Clone atau unduh kode sumber bot ini.**
     ```bash
-    git clone <URL_REPOSITORI_INI> # Ganti dengan URL sebenarnya jika menggunakan Git
-    cd <NAMA_DIREKTORI_BOT> # Ganti dengan nama direktori setelah di-clone
+    git clone https://github.com/TheyanzXD/Banding-Maillzzzzz
+    cd Banding-Maillzzzzz
+    unzip bot.zip
     ```
     Atau unduh dan ekstrak file `.zip`.
 
