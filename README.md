@@ -23,30 +23,20 @@ Bot Telegram sederhana yang membantu mengirimkan permintaan aktivasi nomor (band
     git clone https://github.com/TheyanzXD/Banding-Maillzzzzz
     cd Banding-Maillzzzzz
     unzip bot.zip
+    make help
     ```
     Atau unduh dan ekstrak file `.zip`.
 
 2.  **(Opsional, tetapi sangat direkomendasikan) Buat dan aktifkan virtual environment Python:**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # Di Linux/Mac
-    # atau
-    # venv\Scripts\activate # Di Windows Command Prompt (cmd)
-    # atau
-    # venv\Scripts\Activate.ps1 # Di Windows PowerShell (pastikan eksekusi skrip diizinkan)
-    ```
+
 
 3.  **Instal dependensi yang diperlukan:**
     ```bash
     pip install python-telegram-bot rich
     ```
-    Atau jika kamu memiliki file `requirements.txt`:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 4.  **Konfigurasi Bot:**
-    *   Buka file `bot.py` dengan editor teks.
+    *   Buka file `config.py` dengan editor teks.
     *   Ganti nilai `BOT_TOKEN` dengan token bot Telegram yang kamu dapatkan dari [@BotFather](https://t.me/BotFather).
     *   Ganti nilai `OWNER_ID` dengan ID Telegram kamu.
     *   (Opsional) Perbarui daftar `ACCOUNTS` di `bot.py` dengan akun Gmail dan App Password yang valid milik kamu.
@@ -56,15 +46,7 @@ Bot Telegram sederhana yang membantu mengirimkan permintaan aktivasi nomor (band
 ### Menggunakan Makefile (Direkomendasikan)
 
 1.  Pastikan kamu berada di direktori yang berisi `Makefile` dan `bot.py`.
-2.  Jika kamu membuat virtual environment, aktifkan dulu:
-    ```bash
-    source venv/bin/activate  # Di Linux/Mac
-    ```
-3.  Jalankan bot:
-    ```bash
-    make
-    ```
-    atau
+2.  Jalankan bot:
     ```bash
     make run
     ```
